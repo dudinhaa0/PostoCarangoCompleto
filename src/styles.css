@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap');
+
+:root{font-family:'DM Sans',sans-serif;color:#25272b;background:#f3f4f5;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box}
+body{margin:0;min-width:320px}
+button{font:inherit;cursor:pointer}
+button:disabled{opacity:.58;cursor:wait}
+.page{max-width:1040px;margin:0 auto;padding:25px 34px 22px}
+.header{height:68px;display:flex;align-items:center;justify-content:space-between;margin-bottom:23px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-icon{width:48px;height:48px;display:grid;place-items:center;background:#ffca28;color:#202226;border-radius:14px}
+.brand-overline{font-size:9px;font-weight:800;letter-spacing:1.2px;color:#878b92}
+.brand-name{font:900 21px Montserrat,sans-serif;letter-spacing:-.8px;color:#27292e}
+.brand-name span{color:#d69e08}
+.header-pill,.count-pill{border-radius:30px;background:#fff2c7;color:#8e6900;padding:8px 12px;font-size:9px;font-weight:900;letter-spacing:.8px}
+.live-dot{display:inline-block;width:7px;height:7px;margin-right:6px;border-radius:50%;background:#25a66a}
+.hero{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;min-height:300px;padding:42px 48px;border-radius:25px;background:linear-gradient(115deg,#202329 0%,#30343c 100%);color:#fff;box-shadow:0 15px 38px #22283120}
+.hero-content{position:relative;z-index:2;max-width:570px}
+.hero-tag{display:inline-flex;align-items:center;gap:7px;color:#ffca28;font-size:10px;font-weight:900;letter-spacing:1.4px}
+.hero h1{margin:16px 0 12px;font:900 clamp(29px,4vw,43px)/1.13 Montserrat,sans-serif;letter-spacing:-1.6px}
+.hero h1 span{color:#ffca28}
+.hero p{max-width:480px;color:#c7cbd1;font-size:13px;line-height:1.7;margin:0 0 22px}
+.hero-button{display:inline-flex;align-items:center;gap:9px;padding:13px 18px;border:0;border-radius:10px;background:#ffca28;color:#25272b;font-size:12px;font-weight:900}
+.hero-art{position:relative;width:260px;height:230px;display:grid;place-items:center;flex-shrink:0}
+.orbit{position:absolute;border:1px solid #ffffff18;border-radius:50%}
+.orbit-one{width:215px;height:215px}.orbit-two{width:165px;height:165px}
+.car-emoji{font-size:100px;filter:drop-shadow(0 12px 9px #0005);z-index:1}
+.hero-stamp{position:absolute;right:0;bottom:18px;display:flex;align-items:center;gap:6px;padding:9px 12px;border:1px solid #ffffff22;border-radius:9px;background:#ffffff12;color:#ffda62;font-size:9px;font-weight:900;letter-spacing:.8px}
+.permission-strip{display:flex;align-items:center;gap:13px;margin-top:16px;padding:16px 19px;border:1px solid #e7e8eb;border-radius:15px;background:#fff}
+.permission-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#edf7f1;color:#269b66}
+.permission-text{display:flex;flex:1;flex-direction:column;gap:3px}
+.permission-text strong{font-size:13px}.permission-text span{font-size:11px;color:#858a92}.permission-text b{color:#a16f00}.permission-text b.granted{color:#20965e}
+.small-button{padding:9px 14px;border:1px solid #e1e3e6;border-radius:9px;background:#fff;color:#34373d;font-size:11px;font-weight:800}
+.section{margin-top:31px}
+.section-heading,.pending-heading{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:14px}
+.eyebrow,.card-kicker{font-size:9px;font-weight:900;letter-spacing:1.3px;color:#9a9da3}
+.section-heading h2{margin:4px 0 0;font:800 22px Montserrat,sans-serif;letter-spacing:-.6px}
+.count-pill{font-size:9px;padding:7px 10px}
+.alert-card{display:flex;align-items:center;gap:17px;margin-bottom:11px;padding:18px 19px;border:1px solid #e7e8eb;border-radius:16px;background:#fff;transition:transform .15s,box-shadow .15s}
+.alert-card:hover{transform:translateY(-1px);box-shadow:0 8px 22px #20242b0a}
+.alert-symbol{flex:0 0 51px;width:51px;height:51px;display:grid;place-items:center;border-radius:14px;font-size:30px}
+.tire-symbol{background:#fff4d6;color:#bc8700;font-size:42px;line-height:1}
+.oil-symbol{background:#edf2fb;color:#4d6c9f}.timer-symbol{background:#f2edfb;color:#8060b5}
+.alert-info{flex:1;min-width:0}
+.card-kicker{font-size:8px;color:#9b9da2}
+.alert-info h3{margin:4px 0 4px;font-size:15px;font-weight:800}
+.alert-info p{margin:0;color:#858a92;font-size:11px;line-height:1.5}
+.alert-meta{display:inline-flex;align-items:center;gap:5px;margin-top:8px;color:#8b9097;font-size:10px}
+.action-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:142px;padding:11px 13px;border:0;border-radius:9px;font-size:10px;font-weight:900;white-space:nowrap}
+.yellow{background:#ffca28;color:#25272b}.outline{border:1px solid #e3b42e;background:#fff;color:#8e6900}.dark{background:#292d35;color:#fff}
+.extra{border:1px dashed #e6c45e;background:#fffdf7}.extra-kicker{color:#ad8300}
+.status-box{display:flex;align-items:flex-start;gap:12px;margin-top:20px;padding:15px 17px;border:1px solid #e4e8ed;border-radius:13px;background:#fff}
+.status-icon{margin-top:1px;color:#64748b}
+.status-box strong{font-size:11px}.status-box p{margin:4px 0 0;color:#737983;font-size:11px;line-height:1.5}
+.status-box.success{border-color:#ccebd9;background:#f5fcf7}.status-box.success .status-icon{color:#22965b}
+.status-box.error{border-color:#f0d1ce;background:#fff8f7}.status-box.error .status-icon{color:#c34c43}
+.status-box.warning{border-color:#f1dfb3;background:#fffbf1}.status-box.warning .status-icon{color:#b48100}
+.pending-box{margin-top:12px;padding:17px 19px;border:1px solid #e7e8eb;border-radius:15px;background:#fff}
+.pending-heading{align-items:center;margin:0}
+.pending-heading h3{margin:4px 0 0;font-size:14px}
+.refresh-button,.cancel-button{border:0;background:none;color:#987000;font-size:10px;font-weight:900}
+.empty-pending{margin:13px 0 1px;color:#969ba2;font-size:11px}
+.pending-list{margin-top:12px}
+.pending-item{display:flex;align-items:center;gap:9px;padding:9px 0;border-top:1px solid #f0f0f0;font-size:11px}
+.pending-bullet{width:7px;height:7px;border-radius:50%;background:#e2b322}
+.pending-item span:nth-child(2){flex:1}.pending-item small{color:#92969d}
+.cancel-button{margin-top:8px;padding:0;color:#b44f46}
+.browser-note{display:flex;gap:9px;align-items:flex-start;margin-top:13px;padding:12px;border-radius:10px;background:#fff5d9;color:#806000;font-size:10px;line-height:1.5}
+footer{padding:27px 0 8px;text-align:center;color:#999da4;font-size:10px}
+.footer-brand{display:flex;align-items:center;justify-content:center;gap:7px;color:#555a62;font:900 12px Montserrat,sans-serif;letter-spacing:.7px}
+footer p{margin:5px 0 0}
+.spin{animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:700px){.page{padding:15px 13px 20px}.header{margin-bottom:15px}.header-pill{font-size:8px}.hero{min-height:260px;padding:27px 23px}.hero-art{width:130px;height:180px;margin-right:-20px}.orbit-one{width:140px;height:140px}.orbit-two{width:105px;height:105px}.car-emoji{font-size:65px}.hero-stamp{right:0;bottom:10px;font-size:7px;padding:7px}.hero h1{font-size:29px}.hero p{font-size:11px}.alert-card{flex-wrap:wrap;gap:12px}.alert-info{flex:1 1 calc(100% - 65px)}.action-button{width:100%;margin-left:63px;flex:1 1 calc(100% - 63px)}}
+@media(max-width:390px){.hero{padding:22px 17px}.hero-art{width:90px;margin-right:-22px}.car-emoji{font-size:53px}.hero h1{font-size:25px}.brand-name{font-size:18px}}
