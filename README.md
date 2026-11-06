@@ -1,3 +1,17 @@
+
+<img width="738" height="1600" alt="WhatsApp Image 2026-11-06 at 14 22 56" src="https://github.com/user-attachments/assets/2f64a18f-26e6-4bfb-827d-18757a6d969f" />
+<img width="738" height="1600" alt="WhatsApp Image 2026-11-06 at 14 22 21" src="https://github.com/user-attachments/assets/366bd0f1-b1b2-4a47-84c6-004623071a56" />
+<img width="738" height="1600" alt="WhatsApp Image 2026-11-06 at 14 22 20" src="https://github.com/user-attachments/assets/8f55964a-67cc-4fa4-9fc0-7834920aac56" />
+
+
+
+
+Uploading WhatsApp Video 2026-11-06 at 14.22.20.mp4…
+
+https://github.com/user-attachments/assets/f3945e45-a30a-49a7-afd9-e46cd5b13a54
+
+
+
 # ⛽ Posto Carango Combustível
 
 Aplicativo Android acadêmico desenvolvido com React, Vite e Capacitor para a atividade **15 — Recursos de Hardware: Notificações Locais**, da disciplina PPDM2.
